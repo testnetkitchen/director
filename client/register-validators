@@ -1,0 +1,6 @@
+#!/bin/sh
+
+curl -s 'http://localhost:27001/register?chain_id="default"&name="validator1"&pub_key="FJwrglVTyYO1uVXiXe6HnyEP5clmzWAHIcrbKDjuFQw="&net_address="daf7f23c5f6beba23a51fa430b85cebd435fe0f5@example.com:26656"'
+curl -s 'http://localhost:27001/register?chain_id="default"&name="validator2"&pub_key="okzeBbVyUjVI3lwMDHtu0CbXcOMcyS3Z/rWCM6mJOTE="&net_address="02cf567aee5a0b32e875b1ad1f52fbf3ac953922@example.com:27656"'
+curl -s 'http://localhost:27001/register?chain_id="default"&name="validator3"&pub_key="nyDzI/cTgEIl/bDKJeuAp4p5Ys/LiYevN/HGGZ3ZGGs="&net_address="34286366accf30a9fe7330720081e053ac281301@example.com:28656"'
+curl -s 'http://localhost:27001/register?chain_id="default"&name="validator4"&pub_key="ywNtZNUgwre6uIjNnVQ75o6zJAhYzoyhlIe0AFZZA80="&net_address="0094377f960ee2573e4ccde5b51d88d7b54ff733@example.com:29656"'

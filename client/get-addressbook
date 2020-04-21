@@ -1,0 +1,3 @@
+#!/bin/sh
+
+curl -s http://localhost:27001/addrbook?chain_id=\"default\" | jq .result
